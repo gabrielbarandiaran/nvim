@@ -91,6 +91,9 @@ return packer.startup(function(use)
     use({ "hrsh7th/cmp-nvim-lsp" })
     use({ "hrsh7th/cmp-nvim-lua" })
 
+    -- Tests
+    use({ "klen/nvim-test" })
+
     -- Debugger
     use({ "mfussenegger/nvim-dap" })
     use({ "leoluz/nvim-dap-go" })
